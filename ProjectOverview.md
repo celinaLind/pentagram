@@ -1,6 +1,15 @@
 ## Description
 For this project, you are tasked with building an Instagram clone, where instead of users uploading pictures themselves, they can generate images with text prompts. Instead of using existing image generation APIs, you will have to host an image generation model yourself on serverless GPUs and ensure low latency for a smooth user experience.
 
+## Skills
+- React
+- TypeScript
+- Modal
+- APIs
+- Authentication
+- Hardware
+- Infrastructure
+
 ## Getting Started:
 - Learn how Modal works [here](https://modal.com/docs/guide), along with the other resources provided above
 - Set up the backend API using Modal that generates images from a text prompt
