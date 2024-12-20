@@ -36,3 +36,7 @@ For this project, you are tasked with building an Instagram clone, where instead
 - [Modal Cold Start Guide](https://modal.com/docs/guide/cold-start)
 - [Image Generation Models](https://huggingface.co/models?pipeline_tag=text-to-image)
 - [Modal Web Endpoints](https://modal.com/docs/guide/webhooks)
+- [Cold Start Performace with Modal](https://modal.com/docs/guide/cold-start)
+
+## Developer Notes
+#### AutoPipelineForText2Image vs StableDiffusionPipeline
