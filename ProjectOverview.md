@@ -58,6 +58,7 @@ For this project, you are tasked with building an Instagram clone, where instead
 - [Modal Playground](https://modal.com/playground/get_started)
 - [Modal Cold Start Guide](https://modal.com/docs/guide/cold-start)
 - [Image Generation Models](https://huggingface.co/models?pipeline_tag=text-to-image)
+- [StabilityAI Image Generation Model](https://huggingface.co/stabilityai/sdxl-turbo)
 - [Modal Web Endpoints](https://modal.com/docs/guide/webhooks)
 - [Cold Start Performace with Modal](https://modal.com/docs/guide/cold-start)
 - [Relational Databases](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)
@@ -65,7 +66,18 @@ For this project, you are tasked with building an Instagram clone, where instead
 - [Adversial Diffusion Distillation](https://arxiv.org/pdf/2311.17042)
 - [OpenAI DALL-E 3](https://cdn.openai.com/papers/dall-e-3.pdf_
 - [Squeezing Large-Scale Diffusion Models for Mobile](https://arxiv.org/pdf/2307.01193)
+- [Server Actions and Mutations](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)
+- [Making Network Requests - Javascript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Network_requests)
+- [SQL vs NoSQL vs Blob Database Types](https://medium.com/@rganesh0203/sql-vs-nosql-vs-blobs-storages-5d088790de45#:~:text=Summary,like%20media%20files%20and%20backups.)
+- [Supabase with Vercel](https://supabase.com/partners/integrations/vercel)
 
 ## Developer Notes
 
 #### AutoPipelineForText2Image vs StableDiffusionPipeline
+
+### ERR_INVALID_URL
+
+Received an invalid url error because I forgot to set the base url for the fetch() request. Base url is either the local development url or the deployed production url.
+
+    Changed fetch("/api/generate-image")
+    to fetch(${baseUrl}/api/generate-image\`)
