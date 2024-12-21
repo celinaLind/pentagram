@@ -60,6 +60,11 @@ For this project, you are tasked with building an Instagram clone, where instead
 - [Image Generation Models](https://huggingface.co/models?pipeline_tag=text-to-image)
 - [Modal Web Endpoints](https://modal.com/docs/guide/webhooks)
 - [Cold Start Performace with Modal](https://modal.com/docs/guide/cold-start)
+- [Relational Databases](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)
+- [Stable Diffusion 3](https://arxiv.org/pdf/2403.03206)
+- [Adversial Diffusion Distillation](https://arxiv.org/pdf/2311.17042)
+- [OpenAI DALL-E 3](https://cdn.openai.com/papers/dall-e-3.pdf_
+- [Squeezing Large-Scale Diffusion Models for Mobile](https://arxiv.org/pdf/2307.01193)
 
 ## Developer Notes
 
